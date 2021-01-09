@@ -79,10 +79,35 @@ require "koneksi/koneksi.php";
             <button type="button"><a href="login.php"> MASUK</a> </button>
 
         </div>
+        <div class="cara-memesan">
+            <div class="konten-petugas" style="text-align: center;background-color:#f0fbff; padding-bottom:20px;">
+                <p> Cara memesan O'Laundry </p>
+            </div>
+            <div class="container-fluid">
+                <div class="justify-content-center row">
+                    <div class="col-md-8">
+                        <div class="table-memesan">
+                            <div class="col-md-4">
+                                <img style="height:70px;" src="gambar/tangan.png"><br>
+                                <p>Pilih pelayanan</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img style="height:70px;" src="gambar/lokasi.png"><br>
+                                <p>Atur Alamat</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img style="height:70px;" src="gambar/smile.png"><br>
+                                <p>Nikmati</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="konten-petugas">
-            <p style="margin: 30px;
-        padding-top: 20px;"> Mengapa harus O'Laundry? </p>
+            <p> Mengapa harus O'Laundry? </p>
         </div>
         <div class="table-petugas">
             <table>

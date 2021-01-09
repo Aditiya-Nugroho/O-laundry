@@ -13,11 +13,11 @@ if (isset($_SESSION["email"])) {
 if (isset($_POST["submit"])) {
 	if (login($_POST)) {
 		echo "<script>
-            alert('Transaksi anda berhasil silahkan screenshoot halaman salanjutnya untuk  kepentingan transaksi'); document.location.href ='home.php'
+            alert('Selamat anda berhasil login silahkan laundry sepuasnya'); document.location.href ='home.php'
             </script>";
 	} else {
 		echo "<script>
-            alert('Salah email atau password woi'); document.location.href ='login.php'
+            alert('Maaf Email atau Password anda salah'); document.location.href ='login.php'
             </script>";
 	}
 }

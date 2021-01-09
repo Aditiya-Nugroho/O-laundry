@@ -1,290 +1,310 @@
-.navbar{
-    background-color:#00a7da;
-    width: 100%;
+.navbar {
+  background-color: #00a7da;
+  width: 100%;
 }
-.carousel{
-    position: absolute;
+.carousel {
+  position: absolute;
 }
-.carousel-item img{
-    height: 93vmin;
-    width: 80%;
-    background-size: cover;
+.carousel-item img {
+  height: 93vmin;
+  width: 80%;
+  background-size: cover;
 }
-.carousel-text-konten{
-    color:#fff;
-    position: relative;
-    margin-left: 150px;
-    margin-top: 300px;
-    height: 350px;
+.carousel-text-konten {
+  color: #fff;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 300px;
+  height: 250px;
 }
-.carousel-text-konten p{
-    size: 20px;
+.carousel-text-konten p {
+  size: 20px;
 }
-.carousel-text-konten button{
-    background-color: #00a7da;
-    color: #fff;
-    border: 0;
-    border-radius: 5px;
+.carousel-text-konten button {
+  background-color: #00a7da;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
 }
 .carousel-text-konten button a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
-.konten-petugas{
-    margin-top: 30px;
-    margin-left: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    color:#00a7da ;
-    background:#fff ;
+.konten-petugas {
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  color: #00a7da;
+  background: #fff;
 }
-.konten-cara{
-    margin-left: 30px;
+.konten-cara {
+  margin-left: 30px;
 }
-.cara img{
-    width: 50px;
+.cara img {
+  width: 50px;
 }
-.konten-petugas img{
-    margin-left: 30px;
-    margin-bottom: auto;
+.konten-petugas img {
+  margin-left: 30px;
+  margin-bottom: auto;
 }
-.konten-petugas a img{
-    height: 80px;
-    width: 80px;
-} 
-.table-petugas table tr p{
-    font-size: 20px;
-    color:black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.konten-petugas a img {
+  height: 80px;
+  width: 80px;
+}
+.table-petugas table tr p {
+  font-size: 20px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .table-petugas {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-.footer{
-    margin-top: 30px;
-    width: 100%;
-    height: 300px;
-    padding-bottom: 5px;
-    background: rgb(0, 167, 218);
-    color: black;
-}
-
-.footer .container{
-    max-width: 80%;
-    height: 100%;
-    position: relative;
+.footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  padding-bottom: 5px;
+  background: rgb(0, 167, 218);
+  color: black;
 }
 
-.left-side{
-    position: absolute;
-    top: 60px;
-}
- .left-side h3
-{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 30px;
+.footer .container {
+  max-width: 80%;
+  height: 100%;
+  position: relative;
 }
 
-.footer .container .left-side p{
-    font-size: 12px;
-    letter-spacing: 2px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
+.left-side {
+  position: absolute;
+  top: 60px;
+}
+.left-side h3 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
-.footer .container .under-text .under-text-1{
-    margin-right: 40px;
-    position: absolute;
-    left: 30px;
-    top: 150px;
+.footer .container .left-side p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 
+.footer .container .under-text .under-text-1 {
+  margin-right: 40px;
+  position: absolute;
+  left: 30px;
+  top: 150px;
+}
 
 .footer .container .under-text .under-text-1 h4,
-.footer .container .under-text .under-text-2 h4{
-    letter-spacing: 2px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 400;
+.footer .container .under-text .under-text-2 h4 {
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .footer .container .under-text .under-text-1 ul li,
-.footer .container .under-text .under-text-2 ul li{
-    list-style: none;
-    margin-top: 15px;
-    letter-spacing: 1px;
-    line-height: 10px;
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    cursor: pointer;
-    transition: 1s;
-    position: relative;
-    margin-left: -30px;
+.footer .container .under-text .under-text-2 ul li {
+  list-style: none;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  transition: 1s;
+  position: relative;
+  margin-left: -30px;
 }
 
 .footer .container .under-text .under-text-1 ul li:after,
-.footer .container .under-text .under-text-2 ul li:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    display: block;
-    margin: auto;
-    width: 0;
-    height: 2px;
-    border-radius: 2px;
-    background: #1877f2;
-    transition: 0.5s;
+.footer .container .under-text .under-text-2 ul li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  display: block;
+  margin: auto;
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: #1877f2;
+  transition: 0.5s;
 }
 
 .footer .container .under-text .under-text-1 ul li:hover:after,
-.footer .container .under-text .under-text-2 ul li:hover:after{
-    width: 100%;
+.footer .container .under-text .under-text-2 ul li:hover:after {
+  width: 100%;
 }
 
 .footer .container .under-text .under-text-1 ul li:hover,
-.footer .container .under-text .under-text-2 ul li:hover{
-    color: #000000;
+.footer .container .under-text .under-text-2 ul li:hover {
+  color: #000000;
 }
 
-.footer .container .under-text .under-text-2{
-    position: absolute;
-    left: 700px;
-    top: 180px;
-}    
-.wrapper{
-    position: absolute;
-    left: 20px;
-    top: 150px;
+.footer .container .under-text .under-text-2 {
+  position: absolute;
+  left: 700px;
+  top: 180px;
+}
+.wrapper {
+  position: absolute;
+  left: 20px;
+  top: 150px;
 }
 
-.wrapper label{
-    color: #000;
-    
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 10px;
+.wrapper label {
+  color: #000;
+
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
 }
 
-.wrapper .button{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin: 0 5px;
-    background: #fff;
-    border-radius: 50px;
-    box-shadow: 0 10px 10px rgba(0,0,0, 0.1);
-    cursor: pointer;
-    margin-top: .5rem;
-    margin-bottom: 2.5rem;
-    transform: translateX(585px);
-    transition: all 0.5s ease-out;
-    overflow: hidden;
+.wrapper .button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  transform: translateX(585px);
+  transition: all 0.5s ease-out;
+  overflow: hidden;
 }
 
-.wrapper .button:nth-child(1):hover .icon{
-    color: #1877f2;
-    background: #1877f2;
+.wrapper .button:nth-child(1):hover .icon {
+  color: #1877f2;
+  background: #1877f2;
 }
 
-.wrapper .button:nth-child(2):hover .icon{
-    color: #1da1f2;
-    background: #1da1f2;
+.wrapper .button:nth-child(2):hover .icon {
+  color: #1da1f2;
+  background: #1da1f2;
 }
 
-
-.wrapper .button:nth-child(3):hover .icon{
-    color: #ea4c89;
-    background: #ea4c89;
+.wrapper .button:nth-child(3):hover .icon {
+  color: #ea4c89;
+  background: #ea4c89;
 }
 
-.wrapper .button .icon{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    line-height: 50px;
-    box-sizing: border-box;
-    text-align: center;
-    transition: all 0.5s ease-out;
+.wrapper .button .icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.5s ease-out;
 }
 
-.wrapper .button .icon i{
-    color: #000;
-    font-size: 20px;
-    line-height: 50px;
-    transition: 0.5s;
+.wrapper .button .icon i {
+  color: #000;
+  font-size: 20px;
+  line-height: 50px;
+  transition: 0.5s;
 }
 
-.wrapper .button:hover .icon i{
-    color: #fff;
+.wrapper .button:hover .icon i {
+  color: #fff;
 }
 
-.wrapper .button:hover{
-    width: 200px;
+.wrapper .button:hover {
+  width: 200px;
 }
 
-#text-js{
-    color: red;
-    text-align: center;
-    font-family: 'Sniglet', cursive;
+#text-js {
+  color: red;
+  text-align: center;
+  font-family: "Sniglet", cursive;
 }
 
 /* HOME */
 
-.card{
-    width: 300px;
-    margin-left: 30px;
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+.card {
+  width: 300px;
+  margin-left: 30px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
 }
-.card .card-body .card-text{
-    font-size:15px ;
+.card .card-body .card-text {
+  font-size: 15px;
 }
 
 /* SATUAN */
-.section-cg{
-    width: 800px;
-    background: #ffffff; 
-    border-radius: 10px;
-    margin-left: 30px;
+.section-cg {
+  width: 800px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-left: 30px;
 }
-.content-cg h5{
-    text-align: center; 
-    font-size: 40px;
-    margin-bottom: 50px;
-    color: #000;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    transition-delay: 0.5s;
+.content-cg h5 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition-delay: 0.5s;
 }
-.content-cg p{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -110px;
-    text-align: center;
+.content-cg p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -110px;
+  text-align: center;
 }
-.label-tipe{
-    font-size: 25px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #1da1f2;
-    color: #fff;
-    padding-left: 20px;
-    margin-top: 40px;
-    width: 500px;
-    border-radius: 10px;
+.label-tipe {
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #1da1f2;
+  color: #fff;
+  padding-left: 20px;
+  margin-top: 40px;
+  width: 500px;
+  border-radius: 10px;
 }
-.content-cg input{
-    margin-left: 40px;
-    margin-top: 20px;  
+.content-cg input {
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
-.tipe-kiloan input{
-    transform: translateY(-90%);
+.tipe-kiloan input {
+  transform: translateY(-90%);
+}
+.table-memesan table tr p {
+  font-size: 20px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.table-memesan {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+.table-memesan table {
+  width: 700px;
+}
+.cara-memesan {
+  background-color: #f0fbff;
+  height: 250px;
 }

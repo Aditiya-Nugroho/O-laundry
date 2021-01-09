@@ -85,11 +85,37 @@ if (!isset($_SESSION["email"])) {
         <p style="margin: 30px;
     padding-top: 20px;"> Cara memesan O'Laundry </p>
     </div>
-    <div class="konten-cara">
+    <div class="table-petugas">
+        <table>
+            <tr>
+                <td><img src="gambar/tangan.png"></td>
+                <td>
+                    <p>Setiap petugas sudah terlatih dan siap melayani anda kapanpun</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="gambar/lokasi.png">
+                </td>
+                <td>
+                    <p>Setiap petugas memiliki good attitude</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="gambar/smile.png">
+                </td>
+                <td>
+                    <p>Harga laundry yang terjangkau</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- <div class="konten-cara">
         <div class="cara">
             <img src="gambar/like.png">
         </div>
-    </div>
+    </div> -->
     <div class="konten-petugas">
         <p style="margin: 30px;
     padding-top: 20px;"> Mengapa harus O'Laundry? </p>
